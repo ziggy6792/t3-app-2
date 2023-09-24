@@ -102,6 +102,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aws-cdk/cfnspec@npm:2.97.0-alpha.0":
+  version: 2.97.0-alpha.0
+  resolution: "@aws-cdk/cfnspec@npm:2.97.0-alpha.0"
+  dependencies:
+    fs-extra: ^9.1.0
+    md5: ^2.3.0
+  checksum: 488072b25239cdcddcce1665770bb55c0451435bf5a75f032e4bef18f982d3ed010ead36ba4a26c9982d09e3eecb6f872a016d194d5ed4638ea48cd46bf733f9
+  languageName: node
+  linkType: hard
+
 "@aws-cdk/cloud-assembly-schema@npm:2.95.1":
   version: 2.95.1
   resolution: "@aws-cdk/cloud-assembly-schema@npm:2.95.1"
@@ -109,6 +119,16 @@ __metadata:
     jsonschema: ^1.4.1
     semver: ^7.5.4
   checksum: 09e98fbcda10176fa3e4ce8d738070580c42f6c64374a36f7182f5981103ebf7d743a5d8e3b2669f1410599f26577bf9204b648fb1b76e2df4c904ad53d298b5
+  languageName: node
+  linkType: hard
+
+"@aws-cdk/cloud-assembly-schema@npm:2.97.0, @aws-cdk/cloud-assembly-schema@npm:^2.97.0":
+  version: 2.97.0
+  resolution: "@aws-cdk/cloud-assembly-schema@npm:2.97.0"
+  dependencies:
+    jsonschema: ^1.4.1
+    semver: ^7.5.4
+  checksum: 98ee601a9876119e7c94c564ad272d6ee9c6bb5325b02694be404179b816a9c78332b920f6f5c4feeb7118d5222658ec2668422cc16a8b86b1dc6ca698c5dd88
   languageName: node
   linkType: hard
 
@@ -126,6 +146,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aws-cdk/cloudformation-diff@npm:^2.97.0":
+  version: 2.97.0
+  resolution: "@aws-cdk/cloudformation-diff@npm:2.97.0"
+  dependencies:
+    "@aws-cdk/cfnspec": 2.97.0-alpha.0
+    chalk: ^4
+    diff: ^5.1.0
+    fast-deep-equal: ^3.1.3
+    string-width: ^4.2.3
+    table: ^6.8.1
+  checksum: c2236e6392f2276aeaf14010c89a51cc68cec3d80d3d25adafe890cf4d42f99e08e4221406499dd181448499fc9d185979c9817263b254233f59292e6d4d5193
+  languageName: node
+  linkType: hard
+
 "@aws-cdk/cx-api@npm:2.95.1":
   version: 2.95.1
   resolution: "@aws-cdk/cx-api@npm:2.95.1"
@@ -135,6 +169,18 @@ __metadata:
   peerDependencies:
     "@aws-cdk/cloud-assembly-schema": 2.95.1
   checksum: 0529fab5137b0e8a43f3a193fe3d2064c064d4b3d183035316289c91c3f41f3c5630cd7bc022c7097a08e3ae531cb758992d518979352e8d13b5cc391afd1567
+  languageName: node
+  linkType: hard
+
+"@aws-cdk/cx-api@npm:2.97.0, @aws-cdk/cx-api@npm:^2.97.0":
+  version: 2.97.0
+  resolution: "@aws-cdk/cx-api@npm:2.97.0"
+  dependencies:
+    "@aws-cdk/cloud-assembly-schema": 2.97.0
+    semver: ^7.5.4
+  peerDependencies:
+    "@aws-cdk/cloud-assembly-schema": 2.97.0
+  checksum: 78f690443bf0ecab2e03643d28e9f8465231a0a2b4825b98d305595e9a5b6357d59c172eb47d7b8b9fc7459a62d3b23b2e1be12b552d12e8fec65c340b693b49
   languageName: node
   linkType: hard
 
@@ -3872,7 +3918,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:^2.1326.0, aws-sdk@npm:^2.1451.0":
+"aws-sdk@npm:^2.1326.0, aws-sdk@npm:^2.1451.0, aws-sdk@npm:^2.1461.0, aws-sdk@npm:^2.1463.0":
   version: 2.1463.0
   resolution: "aws-sdk@npm:2.1463.0"
   dependencies:
@@ -4175,6 +4221,24 @@ __metadata:
     cdk-assets: bin/cdk-assets
     docker-credential-cdk-assets: bin/docker-credential-cdk-assets
   checksum: db2ea6eef171254d2022e34192e6b4476ae60609522d940471333e2a3ba2a3406a2438397aeda9fe31ea9702f2b43ff7aa5fb3eb977d91783d7b85e89a5f2acc
+  languageName: node
+  linkType: hard
+
+"cdk-assets@npm:^2.97.0":
+  version: 2.97.0
+  resolution: "cdk-assets@npm:2.97.0"
+  dependencies:
+    "@aws-cdk/cloud-assembly-schema": 2.97.0
+    "@aws-cdk/cx-api": 2.97.0
+    archiver: ^5.3.2
+    aws-sdk: ^2.1461.0
+    glob: ^7.2.3
+    mime: ^2.6.0
+    yargs: ^16.2.0
+  bin:
+    cdk-assets: bin/cdk-assets
+    docker-credential-cdk-assets: bin/docker-credential-cdk-assets
+  checksum: e6021c5b988d6083e0fdef3f58b1428de11217f7965108851563102f097ea3b9cd4c11a92c3c6eaf26261ca2ae49df1ac1627e30a6f2e6b9754a35e0b14faee5
   languageName: node
   linkType: hard
 
@@ -8896,7 +8960,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sst-aws-cdk@npm:2.91.0":
+"sst-aws-cdk@npm:2.91.0, sst-aws-cdk@npm:^2.91.0":
   version: 2.91.0
   resolution: "sst-aws-cdk@npm:2.91.0"
   dependencies:
@@ -9238,6 +9302,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "t3-app-2@workspace:."
   dependencies:
+    "@aws-cdk/cloud-assembly-schema": ^2.97.0
+    "@aws-cdk/cloudformation-diff": ^2.97.0
+    "@aws-cdk/cx-api": ^2.97.0
     "@t3-oss/env-nextjs": ^0.6.1
     "@tanstack/react-query": ^4.35.3
     "@trpc/client": ^10.38.4
@@ -9252,9 +9319,12 @@ __metadata:
     "@typescript-eslint/parser": ^6.7.2
     autoprefixer: ^10.4.16
     aws-cdk-lib: 2.95.1
+    aws-sdk: ^2.1463.0
+    cdk-assets: ^2.97.0
     constructs: 10.2.69
     eslint: ^8.50.0
     eslint-config-next: ^13.5.2
+    fs-extra: ^11.1.1
     next: ^13.5.2
     next-auth: ^4.23.1
     postcss: ^8.4.30
@@ -9263,6 +9333,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     sst: ^2.26.5
+    sst-aws-cdk: ^2.91.0
     superjson: ^1.13.1
     tailwindcss: ^3.3.3
     typescript: ^5.2.2

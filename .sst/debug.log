@@ -1,0 +1,14 @@
+2023-09-24T20:21:45.584Z   +112ms [debug] Config loaded {"version":"2.26.5","cdkVersion":"2.95.1","constructsVersion":"10.2.69","config":{"name":"t3-app-2","region":"us-east-1","stage":"simon-verhoeven","ssmPrefix":"/sst/t3-app-2/simon-verhoeven/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":217,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1695586905481.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":123}},"bytes":305}}},"paths":{"config":"/Users/simon.verhoeven/Documents/workspace/t3-app-2/sst.config.ts","root":"/Users/simon.verhoeven/Documents/workspace/t3-app-2","out":"/Users/simon.verhoeven/Documents/workspace/t3-app-2/.sst","artifacts":"/Users/simon.verhoeven/Documents/workspace/t3-app-2/.sst/artifacts"}}
+2023-09-24T20:21:46.581Z   +997ms [debug] Using AWS profile 
+2023-09-24T20:21:46.583Z     +2ms [debug] Created AWS client STSClient
+2023-09-24T20:21:46.584Z     +1ms [debug] Fetching app metadata
+2023-09-24T20:21:46.584Z     +0ms [debug] Initializing bootstrap context
+2023-09-24T20:21:46.585Z     +1ms [debug] Created AWS client CloudFormationClient
+2023-09-24T20:21:47.907Z  +1322ms [debug] Using identity Account: 932244219675 User: AIDA5SDQV44N5QWEDPZVJ
+2023-09-24T20:21:48.151Z   +244ms [debug] Loaded bootstrap status
+2023-09-24T20:21:48.204Z    +53ms [debug] Deploying stack SSTBootstrap
+2023-09-24T20:21:48.204Z     +0ms [debug] Loading v2 AWS SDK
+2023-09-24T20:21:48.665Z   +461ms [debug] Publishing event {"type":"stack.status","properties":{"stackID":"SSTBootstrap","status":"PUBLISH_ASSETS_IN_PROGRESS"},"sourceID":"badc97f560f7941bbab2f540c967ffbc"}
+2023-09-24T20:21:52.431Z  +3766ms [debug] Failed to deploy stack SSTBootstrap {}
+2023-09-24T20:21:52.431Z     +0ms [debug] Publishing event {"type":"stack.status","properties":{"stackID":"SSTBootstrap","status":"UPDATE_FAILED"},"sourceID":"badc97f560f7941bbab2f540c967ffbc"}
+2023-09-24T20:21:53.733Z  +1302ms [debug] {}

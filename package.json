@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "deploy": "yarn sst deploy",
     "dev": "sst bind next dev",
     "lint": "next lint",
     "start": "next start"
@@ -23,6 +24,9 @@
     "zod": "^3.22.2"
   },
   "devDependencies": {
+    "@aws-cdk/cloud-assembly-schema": "^2.97.0",
+    "@aws-cdk/cloudformation-diff": "^2.97.0",
+    "@aws-cdk/cx-api": "^2.97.0",
     "@types/eslint": "^8.44.3",
     "@types/node": "^18.17.19",
     "@types/react": "^18.2.22",
@@ -31,13 +35,17 @@
     "@typescript-eslint/parser": "^6.7.2",
     "autoprefixer": "^10.4.16",
     "aws-cdk-lib": "2.95.1",
+    "aws-sdk": "^2.1463.0",
+    "cdk-assets": "^2.97.0",
     "constructs": "10.2.69",
     "eslint": "^8.50.0",
     "eslint-config-next": "^13.5.2",
+    "fs-extra": "^11.1.1",
     "postcss": "^8.4.30",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.4",
     "sst": "^2.26.5",
+    "sst-aws-cdk": "^2.91.0",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2"
   },
