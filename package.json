@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "sst bind next dev",
     "lint": "next lint",
     "start": "next start"
   },
@@ -30,16 +30,24 @@
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",
     "autoprefixer": "^10.4.16",
+    "aws-cdk-lib": "2.95.1",
+    "constructs": "10.2.69",
     "eslint": "^8.50.0",
     "eslint-config-next": "^13.5.2",
     "postcss": "^8.4.30",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.4",
+    "sst": "^2.26.5",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2"
   },
   "ct3aMetadata": {
     "initVersion": "7.20.2"
   },
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@3.6.3",
+  "dependenciesMeta": {
+    "prettier-plugin-tailwindcss@0.5.4": {
+      "unplugged": true
+    }
+  }
 }
