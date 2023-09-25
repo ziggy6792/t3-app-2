@@ -1,0 +1,69 @@
+{
+  "name": "@t3-app-2/sst-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "deploy": "yarn sst deploy",
+    "dev": "sst bind next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@t3-oss/env-nextjs": "^0.6.1",
+    "@tanstack/react-query": "^4.35.3",
+    "@trpc/client": "^10.38.4",
+    "@trpc/next": "^10.38.4",
+    "@trpc/react-query": "^10.38.4",
+    "@trpc/server": "^10.38.4",
+    "next": "^13.5.2",
+    "next-auth": "^4.23.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "semver": "^7.5.4",
+    "superjson": "^1.13.1",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@aws-cdk/cloud-assembly-schema": "^2.97.0",
+    "@aws-cdk/cloudformation-diff": "^2.97.0",
+    "@aws-cdk/cx-api": "^2.97.0",
+    "@types/eslint": "^8.44.3",
+    "@types/node": "^18.17.19",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "autoprefixer": "^10.4.16",
+    "aws-cdk-lib": "2.95.1",
+    "aws-sdk": "^2.1463.0",
+    "cdk-assets": "^2.97.0",
+    "constructs": "10.2.69",
+    "detect-libc": "^2.0.2",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^13.5.2",
+    "fs-extra": "^11.1.1",
+    "minimist": "^1.2.8",
+    "napi-build-utils": "^1.0.2",
+    "node-abi": "^3.47.0",
+    "postcss": "^8.4.30",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "simple-get": "^4.0.1",
+    "sst": "^2.26.5",
+    "sst-aws-cdk": "^2.91.0",
+    "tailwindcss": "^3.3.3",
+    "tar-fs": "^3.0.4",
+    "tunnel-agent": "^0.6.0",
+    "typescript": "^5.2.2"
+  },
+  "ct3aMetadata": {
+    "initVersion": "7.20.2"
+  },
+  "packageManager": "yarn@3.6.3",
+  "dependenciesMeta": {
+    "prettier-plugin-tailwindcss@0.5.4": {
+      "unplugged": true
+    }
+  }
+}
