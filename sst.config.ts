@@ -5,7 +5,7 @@ export default {
   config(_input) {
     return {
       name: 't3-app-2',
-      region: 'us-east-1',
+      region: 'ap-southeast-1',
     };
   },
   stacks(app: any) {
